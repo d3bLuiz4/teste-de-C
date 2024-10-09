@@ -1,0 +1,90 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+
+#header{
+    width:1000px; height: 80px;
+    background-color: rgb(183, 0, 255);
+}
+
+body{
+    background-image: url('front.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-attachment:local;
+    background-position: center;
+    background-color:rgb(0, 0, 0);
+
+}
+
+    ul{
+        list-style: none; width: 720px; float:left;
+    }
+
+    ul a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 236, 39);
+    padding: 20px;
+    }
+
+    ul a:hover{
+    background-color: rgb(0, 236, 39);
+    color: rgb(183, 0, 255);
+    }
+
+    ul li{
+        float: left;
+    }
+
+    div{
+        margin: 11px;
+    }
+
+
+#set1{
+  display: flex;
+  justify-content: center;
+
+}
+#set2{
+    display: flex;
+    justify-content: center;
+}
+#set3{
+    display: flex;
+    justify-content: center;
+}
+
+#set1 div{
+    background-color: rgb(0, 236, 39);
+    padding: 10px;
+    margin-right: 91px;
+    margin-bottom: 61px;
+}
+#set2 div{
+    background-color: rgb(183, 0, 255);
+    padding: 10px;
+    margin-right: 91px;
+    margin-bottom: 61px;
+}
+#set3 div{
+    background-color: rgb(0, 236, 39);
+    padding: 10px;
+    margin-right: 91px;
+    margin-bottom: 61px;
+}
+
+div img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.legenda{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    
+}
